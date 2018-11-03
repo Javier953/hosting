@@ -1,0 +1,59 @@
+body {
+    background:#008551;
+}
+
+.container{
+    margin: 10px auto;
+    width: 600px;
+}
+
+.img{
+    text-align: center;
+    background-color: #ffffff;
+}
+
+h1{
+    font-family: verdana;
+    text-align: center;
+}
+
+label{
+    font-family: fantasy;
+}
+
+/*.boton{
+    margin: 2px auto;width: 100px;
+    background-color: #019FA9;
+    font-family: verdana;
+    color:red;
+    text-shadow: -1px 1px #000000;
+    font-size: 18px;
+}*/
+input:invalid {
+  border-bottom: 1px solid red;
+}
+
+input:valid {
+  border-bottom: 1px solid green;
+}
+.btn-back{
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #7D0081;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 4px solid #4E0051;
+    margin-bottom: 15px
+    font-family:verdana;
+}
+
+.btn_cal{
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #00BF82;
+    border: none;
+    border-radius: 4px;
+    border-bottom: 4px solid #007751;
+    margin-bottom: 15px
+    font-family:verdana;
+}
