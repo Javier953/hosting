@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/index.css">
+<title>Formulario Registro</title>
+</head>
+<body>
+<h1>Suscripcion</h1>
+<div class="contenedor-formulario">
+<center>
+<form action="../index.html" >
+<input type="submit" name="submit" value="Regresar " class="btn-back">
+</form></center>
+<div class="wrap">
+<form action="registro.php" class="formulario" name="formulario_registro" method="post">
+<table>
+<tr><td><div class="form-group">
+<label class="form-label" for="nombre">Nombres:</label><br>
+<input tid="first" class="form-input" name="nombre" type="text" required onkeypress="return lettersOnly(this)" maxlength=50>
+</div></td><td>
+<div class="form-group">
+<label class="form-label" for="apell">Apellidos: </label><br>
+<input tid="first" class="form-input" name="apell" type="text" required onkeypress="return lettersOnly(this)" maxlength=50>
+</div></td><td>
+<div class="form-group">
+<label class="form-label" for="correo">Correo: </label><br>
+<input tid="first" class="form-input" name="correo" type="email" required>
+</div></td></tr><tr><td><br>
+<div class="form-group">
+<label class="form-label" for="pass">Contraseña:</label><br>
+<input tid="first" class="form-input" name="pass" type="password" required>
+</div></td></tr><tr><td>
+<label>Sexo</label>
+<div class="input-group radio">
+<input type="radio" name="sexo" id="hombre" value="Hombre" required>
+<label for="hombre">Hombre</label><br>
+<input type="radio" name="sexo" id="mujer" value="Mujer"required>
+<label for="mujer">Mujer</label><br>
+</div></td><td><br>
+<label>Nivel de estudios </label>
+<div class="input-group radio">
+<input type="radio" name="estu" id="esc" value="Escuela" required>
+<label for="esc">Escuela</label><br>
+<input type="radio" name="estu" id="col" value="Colegio" required>
+<label for="col">Colegio</label><br>
+<input type="radio" name="estu" id="sup" value="Superior" required>
+<label for="sup">Superior</label><br>
+</div><td><br>
+<label>Temas de interes </label>
+<div class="input-group checkbox">
+<input type="checkbox" name="inter1" id="checkbox1" >
+<label for="checkbox1">Musica</label><br>
+<input type="checkbox" name="inter2" id="checkbox2" >
+<label for="checkbox2">Deporte</label><br>
+<input type="checkbox" name="inter3" id="checkbox3" >
+<label for="checkbox3">Cine</label><br>
+    </div></td></tr></table><table><tr><td>
+<label>Dias de la semana que interesa recibirlo </label><br>
+<select name= "dias" placeholder="dias de interes" required>
+<option value="Lunes"> Lunes</option>
+<option value="Martes"> Martes</option>
+<option value="Miercoles"> Miercoles</option>
+<option value="Jueves"> Jueves</option>
+<option value="Viernes"> Viernes</option>
+</select><br></td></tr><tr><td>
+<label>Deje su opinion </label><br>
+<div class="input-group">
+<input tid="first" class="form-input" type="text" name="comentario"><br></td></tr></div>
+<div><tr><td>	
+<input type="submit" id="btn-submit" value="Registrar"></td></tr>
+</div></table>
+</form>
+</div>
+</div>
+<script type="text/javascript" src="js/sololetras.js"></script>>
+</body>
+</html>
