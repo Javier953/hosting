@@ -1,8 +1,4 @@
 function Area(){
-    
-    
-    
-    
     var area;
     var diag_mayor =Number(document.getElementById('diagonalmayor').value);
     var diag_menor = Number(document.getElementById('diagonalmenor').value);
