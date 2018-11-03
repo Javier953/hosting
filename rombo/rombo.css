@@ -29,13 +29,7 @@ label{
     text-shadow: -1px 1px #000000;
     font-size: 18px;
 }*/
-input:invalid {
-  border-bottom: 1px solid red;
-}
 
-input:valid {
-  border-bottom: 1px solid green;
-}
 .btn-back{
     padding: 8px 15px;
     color: #fff;
